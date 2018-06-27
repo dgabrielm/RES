@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Built-By: dariomincioni
+Build-Jdk: 10.0.1
+Implementation-Title: Dario Mincioni REST API project
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: com.dariomincioni.spring
+Implementation-Vendor: Pivotal Software, Inc.
+Implementation-URL: http://projects.spring.io/spring-boot/RESTful-API/
+Created-By: Maven Integration for Eclipse
+
