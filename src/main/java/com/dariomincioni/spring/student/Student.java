@@ -7,13 +7,26 @@ package com.dariomincioni.spring.student;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
+import javax.validation.constraints.Max;
+import javax.validation.constraints.Min;
+import javax.validation.constraints.NotNull;
 
+// persistence library annotation to treat this class as a database entry
 @Entity
 public class Student {
 
+	// persistence library annotation to treat this field as the primary key
 	@Id
+	// @NotNull ensures we get some input. More validation is possible but depends
+	// on desired result. As this is example data I only wish to enforce not null
+	// and limit available id numbers in case of malicious users
+	@NotNull
+	@Min(value = 1) 
+	@Max(value = 100)
 	private int id;
+	@NotNull
 	private String name;
+	@NotNull
 	private String courseTitle;
 	
 	public Student() {
@@ -31,10 +44,6 @@ public class Student {
 		return id;
 	}
 	
-	public void setId(int id) {
-		this.id = id;
-	}
-	
 	public String getName() {
 		return name;
 	}
@@ -50,5 +59,7 @@ public class Student {
 	public void setCourseTitle(String courseTitle) {
 		this.courseTitle = courseTitle;
 	}
+	
+	// very standard data which is not worth documenting with javadoc
 	
 }
