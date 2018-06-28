@@ -1,0 +1,6 @@
+com/dariomincioni/spring/student/StudentController.class
+com/dariomincioni/spring/student/StudentService.class
+com/dariomincioni/spring/student/Student.class
+com/dariomincioni/spring/RestApiApp.class
+com/dariomincioni/config/SwaggerConfig.class
+com/dariomincioni/spring/student/StudentRepository.class
