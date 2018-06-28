@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"com.dariomincioni.config"},{"l":"com.dariomincioni.spring"},{"l":"com.dariomincioni.spring.student"}]

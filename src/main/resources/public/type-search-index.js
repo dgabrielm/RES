@@ -1,0 +1,1 @@
+typeSearchIndex = [{"p":"com.dariomincioni.spring","l":"RestApiApp"},{"p":"com.dariomincioni.spring.student","l":"Student"},{"p":"com.dariomincioni.spring.student","l":"StudentController"},{"p":"com.dariomincioni.spring.student","l":"StudentRepository"},{"p":"com.dariomincioni.spring.student","l":"StudentService"},{"p":"com.dariomincioni.config","l":"SwaggerConfig"}]
