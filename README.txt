@@ -1,11 +1,11 @@
-/////////    /////////   /////////   /////////  		
-///   ///    /////////   /////////   /////////		 
-///   ///    ///         ///        	///	 		 
-/////////    /////////   ////////  		/// 		 
-///   ///    /////////   ////////  		///	           ====	 
-///   ///    ///              ///   	///			 
-///    ///   /////////   ////////   	///			 
-///    ///   /////////  ////////    	///		     
+/////////    /////////   /////////   /////////  
+///   ///    /////////   /////////   /////////
+///   ///    ///         ///        	///	 
+/////////    /////////   ////////  		///
+///   ///    /////////   ////////  		///	 
+///   ///    ///              ///   	///	
+///    ///   /////////   ////////   	///	
+///    ///   /////////  ////////    	///	
 
 
    //////     /////////   /////////
@@ -42,11 +42,11 @@ The most notable libraries used in the application include:
 	- Jackson JSON conversion library
 	- Spring web/jpa
 
-Live version: 	www.dariomincioni.com:5041/ ~ resource name + s
-Project page: 	www.dariomincioni.com/projects/REST-API.html
-Javadoc : 		www.dariomincioni.com:5041
-Swagger Doc: 	www.dariomincioni.com:5041/swagger-ui.html
-Actuator : 		www.dariomincioni.com:5041/actuator
+Live ver: www.dariomincioni.com:5041/students
+Project : www.dariomincioni.com/projects/REST-API.html COMING SOON
+Javadoc : www.dariomincioni.com:5041
+Swagger : www.dariomincioni.com:5041/swagger-ui.html
+Actuator: www.dariomincioni.com:5041/actuator
 
 I created this API by following the excellent guide provided by Koushik Kothagal
 applying fixes where necessary due to changes in technology versions and writing
